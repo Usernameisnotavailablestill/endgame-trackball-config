@@ -121,8 +121,8 @@ static uint8_t crc8_checksum(const uint8_t *data, const size_t len) {
     return crc;
 }
 
-static bool rgb_supported = false;
-static bool rgb_override = false;
+static bool rgb_supported = true;
+static bool rgb_override = true;
 
 static int rgb_settings_set(const char *name, size_t len, settings_read_cb read_cb, void *cb_arg) {
     if (strcmp(name, "override") == 0) {
