@@ -65,7 +65,7 @@
 			bindings = <
 				&trans             &bt BT_CLR
 				&bst_tog ZBS_TOG   &bt BT_NXT
-				&bl BL_TOG         &bt BT_PRV
+				&rgb_ug RGB_TOG    &bt BT_PRV
 				&studio_unlock     &trans
 
 				&kp C_VOL_UP       &kp LC(TAB)
